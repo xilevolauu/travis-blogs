@@ -1,0 +1,43 @@
+
+body {
+    background-image: url(./assets/img/slider/slider2.jpg);
+    
+}
+.login {
+    width: 400px;
+    height: 300px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 300px;
+    
+}
+.login h2 {
+    color: #868787;
+    font-family: sans-serif;
+    padding-top: 20px;
+    line-height: 58px;
+}
+
+.login input {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding-left: 20px;
+}
+.login button {
+    width: 210px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+.login button:hover{
+    font-size: 15px;
+}

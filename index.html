@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travis Scott</title>
+    <link rel="icon" href="https://cdn.shopify.com/s/files/1/1308/1981/t/8/assets/favicon-32x32.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+           <ul id="nav">
+               <li><a href="#">Home</a></li>
+               <li><a href="#band">Band</a></li> 
+               <li><a href="#tour">Tour</a></li>
+               <li><a href="#contact">Contact</a></li>
+               <li>
+                   <a href="#">
+                       More
+                       <i class="nav-arrow-dowm ti-angle-down"></i>
+                
+                    </a>
+                   <ul class="subnav">
+                       <li><a href="">Merchandise</a></li>
+                       <li><a href="">Extras</a></li>
+                       <li><a href="">Media</a></li>
+                   </ul>
+               </li>
+           </ul>
+           <div id="login-btn">
+                <a href="http://127.0.0.1:5500/login.html">Login</a>
+           </div>
+           <div class="search-btn">  
+                <i class="search-icon ti-search"></i>
+           </div>
+            
+           <div id="mobile-menu" class="mobile-menu-btn">
+               <i class="menu-icon ti-menu"></i>
+          </div>
+        </div> 
+
+        <div id="slider">
+            <img id="img" onclick="changeImg()" src="./assets/img/slider/slider1.jpg" alt="travis">
+            <img id="img" src="./assets/img/slider/slider2.jpg" alt="travis" style="display: none;">
+            <img id="img" src="./assets/img/slider/slider3.jpg" alt="travis" style="display: none;">
+            <div class="text-content">
+                <h2 class="text-heading">New York</h2>
+                <div class="text-description">Travis Scott Signs Worldwide Deal With Universal Music</div>
+            </div>
+
+        </div>
+
+        <div id="content">
+            <div id="band" class="content-section">
+                <h2 class="section-heading">CATUS JACK</h2>
+                <p class="section-sub-heading">Look mom I can fly !</p>
+                <p class="about-text">
+                    Scott performed five virtual live shows in the video game Fortnite Battle Royale from April 23 to 25, 2020 with visuals based on his Astroworld tour.[84] It received more than 27 million viewers and boosted the sales of Fortnite-branded Cactus Jack products such as action figures.[85][86] The performance also included the premiere of his new song with Kid Cudi, who released the song, "The Scotts", as a duo under the same name.[87] Tying with the performance, numerous cosmetic items for player avatars based on Scott and the concert were available to purchase by players of Fortnite Battle Royale.[88][89] The song debuted at number-one on the Billboard Hot 100, becoming Travis Scott's third US number-one.[90] In May he collaborated for a second time with Rosalía on her track "TKN", where he raps in Spanish for the first time.[91] The track became a global TikTok phenomenon and topped the charts in Spain and Colombia, while becoming a top ten hit in many European and Latin American countries.
+                </p>
+                <div class="member-list">
+                    <div class="member-item">
+                        <p class="member-name">Jack Boy</p>
+                        <img class="myImages" id="myImg" src="./assets/img/slider/traviss.jpg" alt="Travis" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <p class="member-name">Jack Boy</p>
+                        <img class="myImages" id="myImg" src="./assets/img/slider/traviss.jpg" alt="Travis" class="member-img">
+                    </div>
+                    <div class="member-item">
+                        <p class="member-name">Jack Boy</p>
+                        <img class="myImages" id="myImg" src="./assets/img/slider/traviss.jpg" alt="Traviss" class="member-img">
+                        <div id="myModal" class="modal">
+                            <span class="close">&times;</span>
+                            <img class="modal-content" id="img01">
+                            <div id="caption"></div>
+                          </div>
+                    </div>
+                    <div class="clear"></div>  
+                </div>
+            </div>
+
+            <div id="tour" class="tour-section">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <ul class="ticket-list">
+                        <li>March <span class="sold-out">Sold out</span> </li>
+                        <li>April <span class="sold-out">Sold out</span></li>
+                        <li>May <span class="quanity">3</span></li>
+                    </ul>
+                    <div class="row places-list">
+                        <div class="col s-col-full places-item">
+                            <img src="./assets/img/slider/newyork.jpg" alt="Newyork" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">New York</h3>
+                                <p class="places-time">Fri 27 March 2021</p>
+                                <p class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="places-buy-btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="col s-col-full places-item">
+                            <img src="assets/img/slider/paris (1).jpg" alt="Paris" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">Paris</h3>
+                                <p class="places-time">Fri 28 March 2021</p>
+                                <p class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="places-buy-btn s-full-width">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="col s-col-full places-item">
+                            <img src="./assets/img/slider/sanfran (1).jpg" alt="San Francisco" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">San Francisco</h3>
+                                <p class="places-time">Fri 28 March 2016</p>
+                                <p class="places-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <a href="#" class="places-buy-btn s-full-width ">Buy Tickets</a>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row contact-content ">
+                    <div class="col col-half s-col-full contact-info">
+                        <p><i class="ti-location-pin icon-ti"></i>Viet Nam,VN</p>
+                        <p><i class="ti-mobile icon-ti"></i>Phone: +84354985465</p>
+                        <p><i class="ti-email icon-ti"></i>Email: p.v.ngoc9398@gmail.com</p>
+                    </div>
+                    <div class="col col-half s-col-full contact-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col col-half s-col-full">
+                                    <input type="text" placeholder="Name" required name="" id="" class="form-control">
+                                </div>
+                                <div class="col col-half s-col-full s-mt-8">
+                                    <input type="email" placeholder="Email" required name="" id="" class="form-control ">
+                                </div>
+                                <div class="clear"></div>
+                            </div>
+                            <div class="row input-message">
+                                <div class="col col-full">
+                                    <input type="text" placeholder="Message" required name="" id="" class="form-control">
+                                </div>
+                            </div>
+                                <input type="submit" value="SEND" class="input-send  s-full-width ">                                                                                                                                                                                     
+                        </form>
+                    </div>
+                </div>  
+            </div>
+            <div class="img-section">
+                <img src="./assets/img/slider/Screen_Shot_2017_07_14_at_12.39.22_PM.0.jpg" alt="Travis">
+            </div>
+        </div>
+        <div id="footer">
+            <div class="socials-list">
+                <a href="https://www.facebook.com/van.ngoc.7140/"><i class="ti-facebook"></i></a>
+                <a href="https://www.instagram.com/xilevolauuu/"><i class="ti-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UChhQ1fB_H2LsEYEPXvglObQ"><i class="ti-youtube"></i></a>
+                <a href=""><i class="ti-pinterest"></i></a>
+                <a href="https://twitter.com/Ngoc20362500"><i class="ti-twitter"></i></a>
+                <a href=""><i class="ti-linkedin"></i></a>
+            </div>
+            <p class="copyright">Powered by<a href=""> xilevolauuu</a></p>
+        </div>
+        <div class="myBtn"> 
+            <button onclick="topFunction()" id="myBtn-top"><i class="ti-angle-up"></i></button>
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>  
